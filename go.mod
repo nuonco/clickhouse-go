@@ -76,3 +76,5 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240318140521-94a12d6c2237 // indirect
 	google.golang.org/protobuf v1.33.0 // indirect
 )
+
+replace github.com/ClickHouse/clickhouse-go/v2 => github.com/nuonco/clickhouse-go/v2 v2.28.1-alpha
