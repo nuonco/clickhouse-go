@@ -19,7 +19,7 @@ package clickhouse
 
 import (
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/proto"
+	"github.com/nuonco/clickhouse-go/v2/lib/proto"
 	"runtime"
 	"sort"
 	"strings"
@@ -30,7 +30,7 @@ const ClientName = "clickhouse-go"
 const (
 	ClientVersionMajor       = 2
 	ClientVersionMinor       = 28
-	ClientVersionPatch       = 2
+	ClientVersionPatch       = 3
 	ClientTCPProtocolVersion = proto.DBMS_TCP_PROTOCOL_VERSION
 )
 
